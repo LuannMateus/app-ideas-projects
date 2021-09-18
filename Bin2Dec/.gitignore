@@ -1,0 +1,8 @@
+# Tests
+coverage
+
+# Dependencies
+node_modules
+
+#IDE - vscode
+.vscode

@@ -1,0 +1,16 @@
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .header__title {
+    font-size: 4rem;
+  }
+}
