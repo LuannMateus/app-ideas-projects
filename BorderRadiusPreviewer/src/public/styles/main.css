@@ -1,0 +1,105 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 44px;
+}
+
+.main__square {
+  justify-self: center;
+  align-self: center;
+
+  background-color: #000;
+
+  height: 400px;
+  width: 90%;
+}
+
+.main__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin-top: 44px;
+}
+
+.main__clipboard {
+  display: flex;
+  gap: 6px;
+
+  margin-top: 44px;
+}
+
+.clipboard__input {
+  text-align: center;
+
+  border: 1px solid var(--bg-secondary);
+  border-radius: 2px;
+
+  box-shadow: 1px 1px 2px 1px var(--bg-secondary);
+
+  height: 34px;
+
+  font-size: 0.8rem;
+}
+
+.clipboard__button {
+  border: 1px solid var(--bg-secondary);
+  border-radius: 2px;
+
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+
+  cursor: pointer;
+
+  height: 100%;
+  padding: 8px 2px;
+
+  font-size: 1.1rem;
+}
+
+.clipboard__button:hover {
+  background-color: var(--btn-hover);
+}
+
+/* xl */
+@media screen and (min-width: 1000px) {
+  .main__square {
+    justify-self: center;
+    align-self: center;
+
+    background-color: #000;
+
+    height: 400px;
+    width: 400px;
+  }
+
+  .main__controls {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+    margin-top: 44px;
+  }
+
+  .clipboard__input {
+    width: 340px;
+
+    font-size: 1.2rem;
+  }
+}
+
+/* * sm
+@media screen and (max-width: 569px) {
+}
+
+  * md
+@media screen and (max-width: 799px) {
+}
+
+  * lg
+@media screen and (max-width: 999px) {
+}
+*/

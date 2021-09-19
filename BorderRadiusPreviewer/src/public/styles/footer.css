@@ -1,0 +1,45 @@
+#footer {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  position: relative;
+
+  margin: 14px 0;
+}
+
+#footer p {
+  margin: 8px 0;
+
+  font-weight: 400;
+}
+
+#footer p {
+  transition: ease 0.25s transform;
+}
+
+#footer p:hover {
+  text-decoration: underline;
+  transform: rotate(2deg);
+}
+
+#footer p span {
+  font-weight: 800;
+}
+
+@media screen and (min-width: 1000px) {
+  #footer {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: fixed;
+    bottom: 0;
+
+    margin: 14px 0;
+  }
+}

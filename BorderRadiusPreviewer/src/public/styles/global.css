@@ -1,0 +1,52 @@
+:root {
+  --bg-primary: #8000ff;
+  --bg-secondary: #fff;
+
+  --text-primary: #fff;
+  --text-secondary: #a639ff;
+
+  --btn-hover: #8c00ff;
+
+  --error-color: #ff0033;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  width: 100vw;
+
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body,
+input,
+button {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+/* 
+  *sm
+@media screen and (max-width: 569px) {
+}
+
+  * md
+@media screen and (max-width: 799px) {
+}
+
+  * lg
+@media screen and (max-width: 999px) {
+}
+
+  * xl
+@media screen and (min-width: 1000px) {
+}
+*/

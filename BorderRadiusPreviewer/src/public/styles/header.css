@@ -1,0 +1,16 @@
+#header {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 6px;
+
+  padding: 0 14px;
+}
+
+.header__title {
+  text-align: center;
+
+  padding: 2px 0px;
+
+  border-bottom: 1px solid #abc;
+}
