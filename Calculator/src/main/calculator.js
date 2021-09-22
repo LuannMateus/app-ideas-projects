@@ -4,19 +4,27 @@ export default class Calculator {
   }
 
   sum() {
-    return this.calculatorState[0] + this.calculatorState[2];
+    return (
+      parseFloat(this.calculatorState[0]) + parseFloat(this.calculatorState[2])
+    );
   }
 
   subtraction() {
-    return this.calculatorState[0] - this.calculatorState[2];
+    return (
+      parseFloat(this.calculatorState[0]) - parseFloat(this.calculatorState[2])
+    );
   }
 
   multiplication() {
-    return this.calculatorState[0] * this.calculatorState[2];
+    return (
+      parseFloat(this.calculatorState[0]) * parseFloat(this.calculatorState[2])
+    );
   }
 
   division() {
-    return this.calculatorState[0] / this.calculatorState[2];
+    return (
+      parseFloat(this.calculatorState[0]) / parseFloat(this.calculatorState[2])
+    );
   }
 
   handleDigit(digit) {

@@ -54,6 +54,7 @@ keyboard.forEach((keyboard) => {
 
       if (calculator.calculatorState[0] !== null) {
         if (String(calculator.calculatorState[0]).split('').length === 1) {
+          calculator.clear();
           return (display.innerText = '0');
         }
 
